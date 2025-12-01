@@ -1,0 +1,143 @@
+/* === Reset & Font === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === Navbar === */
+.navbar {
+  background: #2e7d32;
+  color: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.navbar .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #c8e6c9;
+}
+
+.btn-login {
+  background: white;
+  color: #2e7d32;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-login:hover {
+  background: #c8e6c9;
+}
+
+/* === Hero Section === */
+.hero {
+  background: linear-gradient(135deg, #81c784, #66bb6a);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+}
+
+.btn-primary {
+  background: white;
+  color: #2e7d32;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #c8e6c9;
+}
+
+/* === Fasilitas Section === */
+.fasilitas-section {
+  background: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.fasilitas-section h2 {
+  color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+.fasilitas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.fasilitas-item {
+  background: #f1f8e9;
+  padding: 20px;
+  border-radius: 12px;
+  width: 200px;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+
+.about-section {
+  padding: 60px 20px;
+  background: #f9fafb;
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+/* === Footer === */
+footer {
+  background: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin-bottom: 8px;
+}
