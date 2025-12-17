@@ -1,85 +1,58 @@
-Website Kos Pisang Ijo
+# Website Kos Pisang Ijo
 
 Website Kos Pisang Ijo adalah aplikasi berbasis web untuk pengelolaan rumah kos secara digital. Sistem ini menyediakan fitur pencarian kamar, pengajuan sewa, verifikasi penyewa, serta manajemen pembayaran bulanan dengan alur yang terstruktur antara pengguna dan admin.
 
-Aplikasi dibangun menggunakan PHP Native dan MySQL, dengan tampilan antarmuka yang konsisten dan profesional.
+Aplikasi dibangun menggunakan PHP Native dan MySQL dengan tampilan antarmuka yang konsisten dan profesional.
 
-Tujuan Pengembangan
+---
+
+## Tujuan Pengembangan
 
 Proyek ini dikembangkan untuk:
+- Mempermudah pengelolaan data kos secara terpusat
+- Mengurangi pencatatan manual
+- Meningkatkan keamanan dan validasi data penyewa
+- Memberikan transparansi dalam proses pembayaran dan administrasi kos
 
-Mempermudah pengelolaan data kos secara terpusat
+---
 
-Mengurangi pencatatan manual
+## Fitur Sistem Website Kos 
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Dashboard%20Pengguna.png?raw=true)
 
-Meningkatkan keamanan dan validasi data penyewa
+### Fitur Pengguna
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Registrasi%20Pengguna.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Login%20Pengguna.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Dashboard%20Pengguna%20(2).png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Booking%20Pengguna.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Pembayaran%20Bulanan%20Pengguna.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Riwayat%20Booking%20Pengguna.png?raw=true)
 
-Memberikan transparansi dalam proses pembayaran dan administrasi kos
 
-Fitur Sistem
-Fitur Pengunjung
+### Fitur Admin
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halam%20Login%20Admin.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Dashboard%20Admin.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Kamar%20Admin.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Data%20Penghuni%20Admin.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Pengajuan%20Sewa%20Admin.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Pembayaran%20Bulanan%20Admin.png?raw=true)
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Rekapan%20Pembayaran%20Admin.png?raw=true)
 
-Melihat halaman utama kos
+---
 
-Melihat daftar kamar tersedia
+## Alur Sistem
 
-Melihat detail kamar (foto, fasilitas, lokasi, harga)
+1. Pengguna melakukan registrasi dan login
+2. Pengguna mengajukan booking kamar dengan upload KTP
+3. Admin memverifikasi pengajuan sewa
+4. Sistem otomatis membuat data penghuni dan tagihan pembayaran
+5. Pengguna melakukan pembayaran manual dan upload bukti
+6. Admin memverifikasi pembayaran
+7. Status pembayaran diperbarui menjadi lunas
 
-Pencarian kamar berdasarkan lokasi dan budget
+---
 
-Fitur Pengguna
+## Struktur Direktori
 
-Registrasi dan login akun
-
-Booking kamar secara online
-
-Upload KTP sebagai syarat pengajuan sewa
-
-Melihat status pengajuan sewa
-
-Melihat tagihan pembayaran bulanan
-
-Upload bukti pembayaran
-
-Melihat status dan riwayat pembayaran
-
-Fitur Admin
-
-Login admin
-
-Dashboard admin dengan ringkasan data
-
-Manajemen data kamar
-
-Manajemen data penghuni
-
-Verifikasi pengajuan sewa
-
-Verifikasi dokumen KTP penyewa
-
-Manajemen pembayaran bulanan
-
-Verifikasi bukti pembayaran
-
-Rekap data pembayaran
-
-Alur Sistem
-
-Pengguna melakukan registrasi dan login
-
-Pengguna mengajukan booking kamar dengan upload KTP
-
-Admin memverifikasi pengajuan sewa
-
-Sistem otomatis membuat data penghuni dan tagihan pembayaran
-
-Pengguna melakukan pembayaran manual dan upload bukti
-
-Admin memverifikasi pembayaran
-
-Status pembayaran diperbarui menjadi lunas
-
-Struktur Direktori
 website_kos/
 ├── admin/
 │   ├── dashboard.php
@@ -106,62 +79,57 @@ website_kos/
 ├── registrasi.php
 └── README.md
 
-Teknologi yang Digunakan
+---
 
-PHP Native
+## Teknologi yang Digunakan
 
-MySQL
+- PHP Native
+- MySQL
+- HTML
+- CSS
+- JavaScript
+- Google Fonts
 
-HTML
+---
 
-CSS
+## Instalasi dan Konfigurasi
 
-JavaScript
+1. Clone repository
+   git clone https://github.com/username/website-kos-pisang-ijo.git
 
-Google Fonts
+2. Pindahkan folder ke direktori server lokal
+   Contoh: htdocs pada XAMPP
 
-Instalasi dan Konfigurasi
+3. Import database
+   - Buka phpMyAdmin
+   - Buat database baru, misalnya db_kos
+   - Import file db_kos.sql
 
-Clone repository ini
+4. Konfigurasi koneksi database
+   Edit file config/koneksi.php sesuai pengaturan database lokal
 
-git clone https://github.com/username/website-kos-pisang-ijo.git
+5. Jalankan aplikasi melalui browser
+   http://localhost/website_kos/
 
+---
 
-Pindahkan folder ke direktori server lokal
-Contoh: htdocs pada XAMPP
+## Keunggulan Sistem
 
-Import database
+- Alur bisnis jelas dan terstruktur
+- Pembagian peran antara pengguna dan admin
+- Sistem verifikasi penyewa menggunakan KTP
+- Pencatatan pembayaran bulanan rapi
+- Tampilan antarmuka konsisten dan profesional
 
-Buka phpMyAdmin
+---
 
-Buat database baru, misalnya db_kos
+## Catatan
 
-Import file db_kos.sql
+Aplikasi ini dikembangkan menggunakan PHP Native tanpa framework. Cocok digunakan sebagai proyek pembelajaran, tugas akhir, maupun sistem manajemen kos skala kecil hingga menengah.
 
-Konfigurasi koneksi database
-Edit file config/koneksi.php sesuai dengan pengaturan database lokal
+---
 
-Jalankan aplikasi melalui browser
+## Author
 
-http://localhost/website_kos/
-
-Keunggulan Sistem
-
-Alur bisnis jelas dan terstruktur
-
-Pembagian peran antara pengguna dan admin
-
-Sistem verifikasi penyewa menggunakan KTP
-
-Pencatatan pembayaran bulanan rapi
-
-Tampilan antarmuka konsisten dan profesional
-
-Catatan
-
-Aplikasi ini dikembangkan menggunakan PHP Native tanpa framework, sehingga mudah dipahami dan dikembangkan lebih lanjut. Cocok digunakan sebagai proyek pembelajaran, tugas akhir, maupun sistem manajemen kos skala kecil hingga menengah.
-
-Author
-
-Intan Tri Yulianti
+Intan Tri Yulianti  
 Teknik Informatika
