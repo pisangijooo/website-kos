@@ -1,4 +1,4 @@
-# Website Kos Pisang Ijo
+# Website Kos Pisang Ijo - Intan Tri Yulianti - 07TPLP018 - Teknik Informatika - Universitas Pamulang
 
 Website Kos Pisang Ijo adalah aplikasi berbasis web untuk pengelolaan rumah kos secara digital. Sistem ini menyediakan fitur pencarian kamar, pengajuan sewa, verifikasi penyewa, serta manajemen pembayaran bulanan dengan alur yang terstruktur antara pengguna dan admin.
 
@@ -21,20 +21,31 @@ Proyek ini dikembangkan untuk:
 
 ### Fitur Pengguna
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Registrasi%20Pengguna.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Login%20Pengguna.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Dashboard%20Pengguna%20(2).png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Booking%20Pengguna.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Pembayaran%20Bulanan%20Pengguna.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Riwayat%20Booking%20Pengguna.png?raw=true)
 
 
 ### Fitur Admin
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halam%20Login%20Admin.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Dashboard%20Admin.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Kamar%20Admin.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Data%20Penghuni%20Admin.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Pengajuan%20Sewa%20Admin.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Pembayaran%20Bulanan%20Admin.png?raw=true)
+
 ![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Rekapan%20Pembayaran%20Admin.png?raw=true)
 
 ---
@@ -54,32 +65,58 @@ Proyek ini dikembangkan untuk:
 ## Struktur Direktori
 
 website_kos/
+│
 ├── admin/
 │   ├── dashboard.php
 │   ├── kamar.php
+│   ├── tambah_kamar.php
+│   ├── kamar_edit.php
+│   ├── kamar_hapus.php
 │   ├── penghuni.php
+│   ├── penghuni_tambah.php
+│   ├── penghuni_edit.php
+│   ├── penghuni_hapus.php
 │   ├── pesanan.php
+│   ├── pesanan_setuju.php
+│   ├── pesanan_tolak.php
 │   ├── pembayaran.php
-│   └── ...
+│   ├── rekap.php
+│   ├── login_admin.php
+│   ├── logout_admin.php
+│   └── uploads/
+│
 ├── user/
 │   ├── index_user.php
 │   ├── booking.php
 │   ├── pembayaran.php
-│   └── ...
+│   ├── riwayat.php
+│   └── pesanan_terima.php
+│
 ├── config/
 │   └── koneksi.php
+│
 ├── uploads/
+│   ├── foto_kamar/
 │   ├── ktp/
-│   ├── bukti/
-│   └── foto_kamar/
+│   └── bukti/
+│
 ├── assets/
-├── db_kos.sql
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+├── Capture_tampilan_website/
+│
 ├── index.php
 ├── login.php
 ├── registrasi.php
+├── logout.php
+├── pemilik.php
+├── style.css
+├── db_kos.sql
+├── test_koneksi.php
 └── README.md
 
----
 
 ## Teknologi yang Digunakan
 
