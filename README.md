@@ -64,6 +64,7 @@ Proyek ini dikembangkan untuk:
 
 ## Struktur Direktori
 
+```
 website_kos/
 ├── admin/
 │   ├── dashboard.php
@@ -115,6 +116,7 @@ website_kos/
 ├── db_kos.sql
 ├── test_koneksi.php
 └── README.md
+```
 
 
 ## Teknologi yang Digunakan
