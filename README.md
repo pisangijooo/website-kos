@@ -6,12 +6,6 @@ Website Kos Pisang Ijo merupakan aplikasi web untuk menampilkan dan mengelola in
 
 Website memiliki dua jenis pengguna, yaitu pengunjung dan admin. Pengunjung dapat melihat informasi kos secara umum, sedangkan admin memiliki akses untuk mengelola data kamar.
 
-Identitas pembuat:
-Nama: Intan Tri Yulianti
-Program Studi: Teknik Informatika
-Mata Kuliah: Pemrograman Web II
-Universitas: Universitas Pamulang
-
 Deskripsi website:
 Website ini menyajikan informasi kos secara online, meliputi daftar kamar, fasilitas kos, lokasi kos, serta informasi pemilik properti. Admin dapat menambahkan, mengubah, dan menghapus data kamar melalui halaman dashboard admin.
 
