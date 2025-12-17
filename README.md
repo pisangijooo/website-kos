@@ -51,6 +51,19 @@ Proyek ini dikembangkan untuk:
 ---
 
 
+## Alur Sistem
+
+1. Pengguna melakukan registrasi dan login
+2. Pengguna mengajukan booking kamar dengan upload KTP
+3. Admin memverifikasi pengajuan sewa
+4. Sistem otomatis membuat data penghuni dan tagihan pembayaran
+5. Pengguna melakukan pembayaran manual dan upload bukti
+6. Admin memverifikasi pembayaran
+7. Status pembayaran diperbarui menjadi lunas
+
+---
+
+
 ## Informasi Login
 
 Bagian ini berisi akun default yang dapat digunakan untuk mengakses sistem.
@@ -72,18 +85,6 @@ Pengguna umum dapat membuat akun baru melalui halaman registrasi berikut:
 URL Registrasi User:  
 http://localhost/website_kos/registrasi.php
 
-
-## Alur Sistem
-
-1. Pengguna melakukan registrasi dan login
-2. Pengguna mengajukan booking kamar dengan upload KTP
-3. Admin memverifikasi pengajuan sewa
-4. Sistem otomatis membuat data penghuni dan tagihan pembayaran
-5. Pengguna melakukan pembayaran manual dan upload bukti
-6. Admin memverifikasi pembayaran
-7. Status pembayaran diperbarui menjadi lunas
-
----
 
 ## Struktur Direktori
 
