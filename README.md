@@ -1,67 +1,167 @@
-Aplikasi Website Kos Pisang Ijo - Intan Tri Yulianti
+Website Kos Pisang Ijo
 
-![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Dashboard%20Pengguna.png?raw=true)
+Website Kos Pisang Ijo adalah aplikasi berbasis web untuk pengelolaan rumah kos secara digital. Sistem ini menyediakan fitur pencarian kamar, pengajuan sewa, verifikasi penyewa, serta manajemen pembayaran bulanan dengan alur yang terstruktur antara pengguna dan admin.
 
-Website Kos Pisang Ijo merupakan aplikasi web untuk menampilkan dan mengelola informasi kos putri. Website ini dikembangkan sebagai tugas mata kuliah Pemrograman Web II pada Program Studi Teknik Informatika Universitas Pamulang dan dijalankan pada server lokal menggunakan XAMPP.
+Aplikasi dibangun menggunakan PHP Native dan MySQL, dengan tampilan antarmuka yang konsisten dan profesional.
 
-Website memiliki dua jenis pengguna, yaitu pengunjung dan admin. Pengunjung dapat melihat informasi kos secara umum, sedangkan admin memiliki akses untuk mengelola data kamar.
+Tujuan Pengembangan
 
-Deskripsi website:
-Website ini menyajikan informasi kos secara online, meliputi daftar kamar, fasilitas kos, lokasi kos, serta informasi pemilik properti. Admin dapat menambahkan, mengubah, dan menghapus data kamar melalui halaman dashboard admin.
+Proyek ini dikembangkan untuk:
 
-Fitur website:
-• Beranda pengunjung berisi informasi umum kos
-• Pencarian kamar berdasarkan lokasi dan budget per bulan
-• Daftar kamar dengan foto, harga, status, dan fasilitas
-• Informasi fasilitas kos
-• Peta lokasi kos
-• Informasi pemilik properti
-• Sistem login admin
-• Dashboard admin
-• Tambah data kamar
-• Edit data kamar
-• Hapus data kamar
+Mempermudah pengelolaan data kos secara terpusat
 
-Tampilan website:
-• Tampilan Beranda Pengunjung
-• Tampilan Kamar Kos
-• Tampilan Fasilitas dan Footer Website
-• Tampilan Pemilik Kos
-• Tampilan Login Admin
-• Tampilan Dashboard Admin
-• Tampilan Tambah Kamar Admin
-• Tampilan Edit Kamar Admin
-• Tampilan Hapus Kamar Admin
+Mengurangi pencatatan manual
 
-Akun login admin:
-Username: admin
-Password: 12345
+Meningkatkan keamanan dan validasi data penyewa
 
-Teknologi yang digunakan:
-• HTML
-• CSS
-• JavaScript
-• PHP
-• MySQL
-• XAMPP
+Memberikan transparansi dalam proses pembayaran dan administrasi kos
 
-Struktur folder project:
-• assets
-berisi file CSS, JavaScript, dan gambar
-• admin
-berisi halaman login dan dashboard admin
-• database
-berisi file database MySQL
-• index.php
-halaman utama website
+Fitur Sistem
+Fitur Pengunjung
 
-Cara menjalankan website:
-• Install XAMPP
-• Jalankan Apache dan MySQL
-• Pindahkan folder project ke dalam folder htdocs
-• Import database melalui phpMyAdmin
-• Buka browser
-• Akses website melalui localhost/nama_folder
+Melihat halaman utama kos
 
-Tujuan pembuatan:
-Website ini dibuat untuk memudahkan calon penghuni kos dalam memperoleh informasi kos secara online serta membantu admin dalam mengelola data kos secara terstruktur.
+Melihat daftar kamar tersedia
+
+Melihat detail kamar (foto, fasilitas, lokasi, harga)
+
+Pencarian kamar berdasarkan lokasi dan budget
+
+Fitur Pengguna
+
+Registrasi dan login akun
+
+Booking kamar secara online
+
+Upload KTP sebagai syarat pengajuan sewa
+
+Melihat status pengajuan sewa
+
+Melihat tagihan pembayaran bulanan
+
+Upload bukti pembayaran
+
+Melihat status dan riwayat pembayaran
+
+Fitur Admin
+
+Login admin
+
+Dashboard admin dengan ringkasan data
+
+Manajemen data kamar
+
+Manajemen data penghuni
+
+Verifikasi pengajuan sewa
+
+Verifikasi dokumen KTP penyewa
+
+Manajemen pembayaran bulanan
+
+Verifikasi bukti pembayaran
+
+Rekap data pembayaran
+
+Alur Sistem
+
+Pengguna melakukan registrasi dan login
+
+Pengguna mengajukan booking kamar dengan upload KTP
+
+Admin memverifikasi pengajuan sewa
+
+Sistem otomatis membuat data penghuni dan tagihan pembayaran
+
+Pengguna melakukan pembayaran manual dan upload bukti
+
+Admin memverifikasi pembayaran
+
+Status pembayaran diperbarui menjadi lunas
+
+Struktur Direktori
+website_kos/
+├── admin/
+│   ├── dashboard.php
+│   ├── kamar.php
+│   ├── penghuni.php
+│   ├── pesanan.php
+│   ├── pembayaran.php
+│   └── ...
+├── user/
+│   ├── index_user.php
+│   ├── booking.php
+│   ├── pembayaran.php
+│   └── ...
+├── config/
+│   └── koneksi.php
+├── uploads/
+│   ├── ktp/
+│   ├── bukti/
+│   └── foto_kamar/
+├── assets/
+├── db_kos.sql
+├── index.php
+├── login.php
+├── registrasi.php
+└── README.md
+
+Teknologi yang Digunakan
+
+PHP Native
+
+MySQL
+
+HTML
+
+CSS
+
+JavaScript
+
+Google Fonts
+
+Instalasi dan Konfigurasi
+
+Clone repository ini
+
+git clone https://github.com/username/website-kos-pisang-ijo.git
+
+
+Pindahkan folder ke direktori server lokal
+Contoh: htdocs pada XAMPP
+
+Import database
+
+Buka phpMyAdmin
+
+Buat database baru, misalnya db_kos
+
+Import file db_kos.sql
+
+Konfigurasi koneksi database
+Edit file config/koneksi.php sesuai dengan pengaturan database lokal
+
+Jalankan aplikasi melalui browser
+
+http://localhost/website_kos/
+
+Keunggulan Sistem
+
+Alur bisnis jelas dan terstruktur
+
+Pembagian peran antara pengguna dan admin
+
+Sistem verifikasi penyewa menggunakan KTP
+
+Pencatatan pembayaran bulanan rapi
+
+Tampilan antarmuka konsisten dan profesional
+
+Catatan
+
+Aplikasi ini dikembangkan menggunakan PHP Native tanpa framework, sehingga mudah dipahami dan dikembangkan lebih lanjut. Cocok digunakan sebagai proyek pembelajaran, tugas akhir, maupun sistem manajemen kos skala kecil hingga menengah.
+
+Author
+
+Intan Tri Yulianti
+Teknik Informatika
