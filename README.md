@@ -50,6 +50,29 @@ Proyek ini dikembangkan untuk:
 
 ---
 
+
+## Informasi Login
+
+Bagian ini berisi akun default yang dapat digunakan untuk mengakses sistem.
+
+### Login Admin
+
+Gunakan akun berikut untuk masuk ke halaman admin:
+
+Username: admin  
+Password: 12345  
+
+URL Login Admin:  
+http://localhost/website_kos/admin/login_admin.php
+
+### Login User
+
+Pengguna umum dapat membuat akun baru melalui halaman registrasi berikut:
+
+URL Registrasi User:  
+http://localhost/website_kos/registrasi.php
+
+
 ## Alur Sistem
 
 1. Pengguna melakukan registrasi dan login
