@@ -65,7 +65,6 @@ Proyek ini dikembangkan untuk:
 ## Struktur Direktori
 
 website_kos/
-│
 ├── admin/
 │   ├── dashboard.php
 │   ├── kamar.php
