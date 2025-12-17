@@ -1,5 +1,5 @@
 Website Kos Pisang Ijo
-
+![alt text](https://github.com/pisangijooo/website-kos/blob/main/Capture%20tampilan%20website/Tampilan%20Halaman%20Dashboard%20Pengguna.png?raw=true)
 Website Kos Pisang Ijo merupakan aplikasi web untuk menampilkan dan mengelola informasi kos putri. Website ini dikembangkan sebagai tugas mata kuliah Pemrograman Web II pada Program Studi Teknik Informatika Universitas Pamulang dan dijalankan pada server lokal menggunakan XAMPP.
 
 Website memiliki dua jenis pengguna, yaitu pengunjung dan admin. Pengunjung dapat melihat informasi kos secara umum, sedangkan admin memiliki akses untuk mengelola data kamar.
